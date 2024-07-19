@@ -40,17 +40,20 @@ body::before {
   border-radius: 1.5rem;
   border: 2px solid var(--clr-gray-950);
   box-shadow: .5rem .5rem 0 var(--clr-gray-950);
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .container .article-img {
   max-width: 100%;
+  width: 100%;
   border-radius: .75rem;
   margin-bottom: 1.5rem;
 }
+
 .container .publish-date {
   color: var(--clr-gray-950)
 }
+
 .container .tags {
   background-color: var(--clr-yellow);
   padding: .5rem;
@@ -60,9 +63,16 @@ body::before {
   font-size: .75rem;
 }
 
-.container h3 {
+.container a {
   margin: 0;
   font-weight: 800;
+  color: var(--clr-gray-950);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.container a:hover {
+  color: var(--clr-yellow);
 }
 
 .container p {
@@ -84,6 +94,7 @@ body::before {
 
 .container .creator-name {
   font-weight: 800;
+  font-size: .925rem;
   color: var(--clr-gray-950);
 }
 
