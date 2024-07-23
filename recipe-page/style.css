@@ -75,6 +75,10 @@ body {
   padding-inline-start: 1.5rem;
 }
 
+.content li {
+  padding-inline-start: 1.5rem;
+}
+
 .content li:not(:last-of-type) {
   margin-bottom: .5rem;
 }
