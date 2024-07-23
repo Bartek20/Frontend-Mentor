@@ -10,6 +10,7 @@
   --clr-grey-800: hsl(0, 0%, 12%);
   --clr-grey-900: hsl(0, 0%, 8%);
   --clr-attribution: white;
+  --clr-attribution-link: var(--clr-green);
 }
 
 body {

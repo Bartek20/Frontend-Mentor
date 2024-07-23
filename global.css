@@ -34,5 +34,5 @@ body.center-component::before {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--clr-attribution-link, hsl(228, 45%, 44%));
 }
