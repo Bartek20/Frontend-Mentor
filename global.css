@@ -1,0 +1,38 @@
+/* Reset */
+html,
+body {
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center single compenent in body */
+body.center-component {
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+}
+
+body.center-component::before {
+  content: '';
+}
+
+/* Attribution */
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-inline: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: var(--clr-attribution, initial);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

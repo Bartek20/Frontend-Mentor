@@ -10,27 +10,11 @@
   --clr-gray-950: hsl(0, 0%, 7%);
 }
 
-html,
 body {
-  min-width: 100%;
-  min-height: 100%;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: grid;
-  justify-content: center;
-  align-content: space-between;
   background-color: var(--clr-yellow);
   font-family: Figtree, sans-serif;
 }
 
-body::before {
-  content: '';
-}
 
 .container {
   display: grid;
@@ -100,16 +84,4 @@ body::before {
   font-weight: 800;
   font-size: .925rem;
   color: var(--clr-gray-950);
-}
-
-/* Attribution */
-.attribution {
-  font-size: 12px;
-  text-align: center;
-  margin-inline: 1rem;
-  padding: 1rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
