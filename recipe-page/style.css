@@ -17,7 +17,6 @@
   --clr-brown-800: hsl(14, 45%, 36%);
   --clr-rose-800: hsl(332, 51%, 32%);
   --clr-rose-50: hsl(330, 100%, 98%);
-  --clr-orange-50: hsl(29, 53%, 90%)
 }
 
 body {
@@ -133,7 +132,7 @@ body {
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: var(--clr-orange-50);
+    background-color: var(--clr-stone-100);
     display: grid;
     justify-content: center;
   }
